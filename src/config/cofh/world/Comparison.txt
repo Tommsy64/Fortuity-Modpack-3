@@ -1,0 +1,27 @@
+400x400 block area.
+
+IC2 Vanilla
+
+* §eCoal§r - 117,681 (33%)
+* §eIron§r - 69,298 (20%)
+* §eCopper§r - 65,529 (19%)
+* §eTin§r - 48,672 (14%)
+* §eRedstone§r - 18,676 (5.3%)
+* §eGold§r - 15,415 (4.4%)
+* §eLead§r - 7,738 (2.2%)
+* §eUranium§r - 4,409 (1.3%)
+* §eLapis§r - 2,759 (0.78%)
+* §eDiamond§r - 2,296 (0.65%)
+
+Fortuity
+
+* §eCoal§r - 106,441 (31%)
+* §eIron§r - 68,684 (20%)
+* §eCopper§r - 66,032 (19%)
+* §eTin§r - 52,099 (15%)
+* §eRedstone§r - 20,828 (6.0%)
+* §eGold§r - 16,243 (4.7%)
+* §eLead§r - 7,377 (2.1%)
+* §eUranium§r - 4,708 (1.4%)
+* §eLapis§r - 3,050 (0.88%)
+* §eDiamond§r - 2,647 (0.76%)

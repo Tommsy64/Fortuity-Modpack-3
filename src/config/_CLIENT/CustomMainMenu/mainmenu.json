@@ -1,0 +1,149 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "custommainmenu:textures/gui/minecraft.png",
+            "posX" : -137,
+            "posY" : 30,
+            "width" : 512,
+            "height" : 512,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : 0,
+            "posY" : 0,
+            "width" : 201,
+            "height" : 20,
+			"alignment" : "left_center",
+			"action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : 0,
+            "posY" : 25,
+            "width" : 201,
+            "height" : 20,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : 0,
+            "posY" : 50,
+            "width" : 201,
+            "height" : 20,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+
+        "options":
+        {
+			"text" : "menu.options",
+            "posX" : -200,
+            "posY" : 0,
+            "width" : 201,
+            "height" : 20,
+			"alignment" : "right_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+		
+		"connect_to_server":
+        {
+			"text" : "Fortuity Server Hub",
+            "posX" : -200,
+            "posY" : 25,
+            "width" : 201,
+            "height" : 20,
+            "tooltip" : "Connect to server...",
+			"alignment" : "right_center",
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "mc.tommsy.com"
+            }
+        },
+		
+		"quit":
+        {
+            "text" : "menu.quit",
+            "posX" : -200,
+            "posY" : 50,
+            "width" : 201,
+            "height" : 20,
+			"alignment" : "right_center",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Created by Tommsy64",
+            "posX" : 4,
+            "posY" : -12,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+		
+		"modcounts":
+        {
+            "text" : "#modsloaded# Mods loaded, #modsactive# Mods active.",
+            "posX" : -150,
+            "posY" : -12,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 90,
+            "posY" : 70,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : "file:minecraft:texts/splashes.txt"
+        },
+        
+        "panorama":
+        {
+            "images" : "biomesoplenty:textures/gui/title/background/panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 1,
+            "blur" : true,
+            "gradient" : true
+        }
+    }
+}

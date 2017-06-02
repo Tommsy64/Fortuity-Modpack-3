@@ -1,0 +1,27 @@
+[
+	{
+		"entryName": "oreAluminum",
+		"modIdPriorityList": [
+			"minecraft",
+			"ic2",
+			"immersiveengineering",
+			"thermalfoundation",
+			"substratum",
+			"mekanism",
+			"techreborn"
+		]
+	},
+	{
+		"entryName": "dustCharcoal",
+		"modIdPriorityList": [
+			"minecraft",
+			"ic2",
+            "railcraft",
+			"immersiveengineering",
+			"thermalfoundation",
+			"substratum",
+			"mekanism",
+			"techreborn"
+		]
+	}
+]

@@ -1,0 +1,96 @@
+# To use different sets of recipes, include other recipe files in the order of
+# priority to use the recipes defined in them. The last include has the highest
+# priority (i.e. included recipes simply replace the current definition for all
+# already known recipes).
+
+# To disable a recipe, assign a boolean value to it. For example, to disable
+# the recipe for the transistor: `transistor = false`. This will disable the
+# recipe and hide the item in the creative tab and NEI. If you assign `true`,
+# the recipe will still be disabled, but not hidden in the creative tab/NEI.
+
+#include file("default.recipes")
+include file("hardmode.recipes")
+#include file("gregtech.recipes")
+#include file("peaceful.recipes")
+#include file("your_custom.recipes")
+
+# You can also specify custom recipes in this file directly. Have a look at the
+# default.recipes file to get an idea how recipes have to be structured. You'll
+# want to define your recipes after all includes, to avoid those overwriting
+# your recipes.
+
+
+transistor {
+  input: [[nuggetIron, nuggetIron, nuggetIron]
+          [nuggetGold, "refinedstorage:processor", nuggetGold]
+          ["", redstone, ""]]
+  output: 4
+}
+
+acid {
+  type: shapeless
+  input: [bucketWater, dustSulfur, dustAerotheum]
+}
+
+cuttingWire {
+  input: [[stickWood, {item="projectred-core:resource_item", subID=401}, stickWood]]
+}
+
+screen1 {
+  input: [[plateIron, plateIron, blockGlass]
+          [redstone, "oc:materialTransistor", fusedGlass]
+          [plateIron, plateIron, fusedGlass]]
+}
+screen2 {
+  input: [[plateGold, {item="projectred-core:resource_item", subID=514}, plateGold]
+          ["oc:circuitChip2", {item="projectred-core:resource_item", subID=513}, "oc:screen1"]
+          [plateGold, {item="projectred-core:resource_item", subID=511}, plateGold]]
+}
+screen3 {
+  input: [["refinedstorage:quartz_enriched_iron", "oc:materialCircuitBoardPrinted", "oc:circuitChip3"]
+          ["refinedstorage:quartz_enriched_iron", itemBlazePowder, "oc:screen2"]
+          ["refinedstorage:quartz_enriched_iron", "oc:materialCircuitBoardPrinted", "oc:circuitChip3"]]
+}
+
+chipDiamond {
+  type: shapeless
+  input: [nuggetDiamond, nuggetDiamond, nuggetDiamond]
+  output: 2
+}
+
+hologram1 {
+  input: [["oc:circuitChip2", paneGlass, "oc:circuitChip2"]
+          ["oc:materialCircuitBoardPrinted", chipDiamond, "oc:materialCircuitBoardPrinted"]
+          [obsidian, componentLaserEmitter, obsidian]]
+}
+hologram2 {
+  input: [["oc:circuitChip3", blockGlass, "oc:circuitChip3"]
+          ["oc:materialCircuitBoardPrinted", gemDiamond, "oc:materialCircuitBoardPrinted"]
+          [obsidian, componentLaserEmitter, obsidian]]
+}
+
+cable {
+  input: [[nuggetIron, nuggetIron, nuggetIron]
+          [nuggetIron, {item="projectred-core:resource_item", subID=401}, nuggetIron]
+          [nuggetIron, nuggetIron, nuggetIron]]
+  output: 16
+}
+
+chip1 {
+  input: [[nuggetIron, "", nuggetIron]
+          ["oc:materialTransistor", nuggetGold, "oc:materialTransistor"]
+          [nuggetIron, "", nuggetIron]]
+  output: 4
+}
+chip2 {
+  input: [[nuggetElectrum, {item="projectred-core:resource_item", subID=105}, nuggetElectrum]
+          ["oc:circuitChip1", netherquartz, "oc:circuitChip1"]
+          [nuggetElectrum, {item="projectred-core:resource_item", subID=105}, nuggetElectrum]]
+  output: 2
+}
+chip3 {
+  input: [[yellowDust, {item="projectred-core:resource_item", subID=20}, yellowDust]
+          ["oc:circuitChip2", gemDiamond, "oc:circuitChip2"]
+          [yellowDust, {item="projectred-core:resource_item", subID=20}, yellowDust]]
+  output: 2
+}

@@ -1,0 +1,55 @@
+{
+    "populate": {
+        "rare_stalagmite": {
+            "distribution": "cave",
+            "generator": {
+                "type": "stalagmite",
+                "block": [
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 6,
+                        "weight": 5
+                    },
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 7,
+                        "weight": 1
+                    },
+                    {
+                        "name": "thermalfoundation:storage_alloy",
+                        "metadata": 7,
+                        "weight": 5
+                    },
+                    {
+                        "name": "minecraft:air",
+                        "metadata": 0,
+                        "weight": 89
+                    }
+                ],
+                "material": "stone",
+                "gen-body": "air",
+                "min-height": 1,
+                "height-variance": 0,
+                "gen-size": 1,
+                "height-mod": 0,
+                "size-variance": 0,
+                "smooth": false,
+                "fat": false
+            },
+            "cluster-count": {
+                "min": 0,
+                "max": 2
+            },
+            "ceiling": false,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        }
+    }
+}

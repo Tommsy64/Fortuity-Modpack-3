@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+  <recipe name="Stirling Generator" required="true">
+    <crafting>
+      <grid size="3x3">
+        <item name="oredict:plateSteel" /><item name="thermalexpansion:frame:0" /><item name="oredict:plateSteel" />
+        <item name="oredict:plateSteel" /><item name="ic2:te:9" /><item name="oredict:plateSteel" />
+        <item name="oredict:gearElectrum" /><item name="minecraft:piston" /><item name="oredict:gearElectrum" />
+      </grid>
+      <output name="enderio:blockStirlingGenerator" />
+    </crafting>
+  </recipe>
+
+</enderio:recipes>

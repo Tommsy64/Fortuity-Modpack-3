@@ -1,0 +1,190 @@
+{
+  "name" : "Fortuity",
+  "title" : "Fortuity 3.0",
+  "gameVersion" : "1.10.2",
+  "features" : [
+    {
+      "properties" : {
+        "name" : "Better Foliage",
+        "description" : "Better Foliage is a Forge mod that will make your Minecraft worlds more impressive, mainly by improving how vegetation looks. Disabling this may imrpove performacnce, however, it can also be disabled through the in-game Mod config editor.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/BetterFoliage*.jar"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Chunk Animator",
+        "description" : "Making loading chunks less boring!!! ;)",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/ChunkAnimator*.jar"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Dynamic Surroundings",
+        "description" : "Dynamic Surroundings alters the player’s visual and audible experience in Minecraft, and does not alter game mechanics.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/DynamicSurroundings*.jar"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "World Stripper",
+        "description" : "This mod assists in modpack development and debugging.",
+        "recommendation" : "avoid",
+        "selected" : false
+      },
+      "files" : {
+        "include" : [
+          "mods/World-Stripper*.jar"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Sound Physics",
+        "description" : "Sound Physics is a mod that overhauls Minecraft's sound engine to simulate reverberation, sound occlusion/absorption, and physically based sound attenuation. The sound simulation provides interesting aural cues; you'll be able to tell whether a mob can be directly seen and whether it's just around the corner or in a closed-off area with your eyes closed. Exploring caves is much more immersive, and reverberation provides a sense of scale to grand structures or large underground ravines.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/soundphysics*.jar",
+          "resourcepacks/SE-Soundfix-*.zip"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Faithful 32x Modded Edition",
+        "description" : "\"HD\" resource for pretty much everything!",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "resourcepacks/F32-1.10.2.zip"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Realistic Clouds",
+        "description" : "Extremely realistic clouds, sunsets, sunrises, moon and sun.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "resourcepacks/Clouds-Pack.zip"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "MrMeepz Shaders v05",
+        "description" : "The Goal of this Shaderpack is to create a Happy and Summer - like Atmosphere, which is archieved trough bright and warm colours. Since 2013 I've been using those colours in my Shaderpack and they have become the\n''Special Feature'' that many people connect with this Shaderpack.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "shaderpacks/MrMeepz Shaders v05*.zip"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "KUDA Shaders v6.5",
+        "description" : "KUDA-Shaders v6 is designed to have nice graphics, fast, customizable and to be playable. The last version of KUDA-Shaders has plenty of options you can mess around with. See dedelner.net for more information.",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "shaderpacks/KUDA-Shaders v6.5*.zip"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "World Edit",
+        "description" : "World Edit for single player. Includs CUI.",
+        "recommendation" : null,
+        "selected" : false
+      },
+      "files" : {
+        "include" : [
+          "mods/worldedit-forge*.jar",
+          "mods/WorldEditCuiFe*.jar"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Loot Bags",
+        "description" : "No longer on the official server. They're pretty borken.",
+        "recommendation" : null,
+        "selected" : false
+      },
+      "files" : {
+        "include" : [
+          "mods/LootBags-*.jar"
+        ],
+        "exclude" : [ ]
+      }
+    }
+  ],
+  "userFiles" : {
+    "include" : [
+      "options.txt",
+      "optionsof.txt",
+      "optionsshaders.txt",
+      ".ReAuth.cfg",
+      "keybindings.txt",
+      "journeymap/",
+      "shaderpacks/*.zip",
+      "shaderpacks/*.txt",
+      "resourcepacks/*.zip",
+      "servers.dat"
+    ],
+    "exclude" : [
+      "resourcepacks/Clouds-Pack.zip",
+      "resourcepacks/F32-1.10.2.zip",
+      "resourcepacks/SE-Soundfix-*.zip",
+      "shaderpacks/MrMeepz Shaders v05*.zip",
+      "shaderpacks/KUDA-Shaders v6.5*.zip",
+      "scripts/*.zs"
+    ]
+  },
+  "launch" : {
+    "flags" : [
+      "-Dfml.ignoreInvalidMinecraftCertificates=true -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy -Xmn128M"
+    ]
+  }
+}

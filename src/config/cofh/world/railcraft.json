@@ -1,0 +1,148 @@
+{
+    "populate": {
+        "saltpeter": {
+            "distribution": "uniform",
+            "generator": {
+                "type": "large-vein",
+                "block": {
+                    "name": "railcraft:ore",
+                    "metadata": 1
+                },
+                "material": [
+                    {
+                        "name": "minecraft:sand"
+                    },
+                    {
+                        "name": "minecraft:sandstone"
+                    }
+                ],
+                "cluster-size": 33,
+                "sparse": false
+            },
+            "cluster-count": {
+                "min": 0,
+                "max": 5
+            },
+            "min-height": 55,
+            "max-height": 110,
+            "retrogen": false,
+            "biome": {
+                "restriction": "whitelist",
+                "value": [
+                    {
+                        "type": "id",
+                        "entry": [
+                            "desert",
+                            "desert_hills",
+                            "desert_m",
+                            "desert_M",
+                            "desert M",
+                            "lush_desert"
+                        ]
+                    }
+                ]
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "sulfur": {
+            "distribution": "gaussian",
+            "generator": {
+                "type": "large-vein",
+                "block": {
+                    "name": "railcraft:ore"
+                },
+                "material": [
+                    {
+                        "name": "minecraft:stone"
+                    },
+                    {
+                        "name": "minecraft:obsidian"
+                    }
+                ],
+                "cluster-size": 65,
+                "sparse": false
+            },
+            "cluster-count": {
+                "min": 0,
+                "max": 3
+            },
+            "center-height": 13,
+            "spread": 13,
+            "rolls": 4,
+            "retrogen": false,
+            "biome": {
+                "restriction": "whitelist",
+                "value": [
+                    {
+                        "type": "id",
+                        "entry": [
+                            "extreme_hills",
+                            "smaller_extreme_hills",
+                            "extreme_hills_with_trees",
+                            "mutated_extreme_hills",
+                            "mutated_extreme_hills_with_trees",
+                            "alps"
+                        ]
+                    }
+                ]
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "sulfur_mountain": {
+            "distribution": "gaussian",
+            "generator": {
+                "block": {
+                    "name": "railcraft:ore"
+                },
+                "material": [
+                    {
+                        "name": "minecraft:stone"
+                    },
+                    {
+                        "name": "minecraft:obsidian"
+                    }
+                ],
+                "cluster-size": 14
+            },
+            "cluster-count": {
+                "min": 0,
+                "max": 5
+            },
+            "center-height": 10,
+            "spread": 8,
+            "rolls": 4,
+            "retrogen": false,
+            "biome": {
+                "restriction": "whitelist",
+                "value": [
+                    {
+                        "type": "id",
+                        "entry": [
+                            "mountain",
+                            "mountain_peaks"
+                        ]
+                    }
+                ]
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        }
+    }
+}
