@@ -216,9 +216,9 @@
   },
   {
     "ingredients" : [
-      [ { "registryName" : "ic2:crafting", "meta" : 15 }, { "registryName" : "ic2:crafting", "meta" : 15 }, { "registryName" : "ic2:crafting", "meta" : 15 } ],
-      [ { "registryName" : "ic2:crafting", "meta" : 15 }, { "oredictName" : "itemRubber" }, { "registryName" : "ic2:crafting", "meta" : 15 } ],
-      [ { "registryName" : "ic2:crafting", "meta" : 15 }, { "registryName" : "ic2:crafting", "meta" : 15 }, { "registryName" : "ic2:crafting", "meta" : 15 } ]
+      [ { "registryName" : "ic2:crafting", "meta" : 13 }, { "oredictName" : "itemRubber" }, { "registryName" : "ic2:crafting", "meta" : 13 } ],
+      [ { "registryName" : "ic2:crafting", "meta" : 13 }, { "oredictName" : "itemRubber" }, { "registryName" : "ic2:crafting", "meta" : 13 } ],
+      [ { "registryName" : "ic2:crafting", "meta" : 13 }, { "oredictName" : "itemRubber" }, { "registryName" : "ic2:crafting", "meta" : 13 } ]
     ],
     "result" : {
       "oredictName" : "componentCarbonMyofiber"

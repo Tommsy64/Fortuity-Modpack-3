@@ -1,8 +1,8 @@
-print("Imrpoving Immersive Engineering recipes...");
+print("Improving Immersive Engineering recipes...");
 
 val hammer = <immersiveengineering:tool>;
-val iron = <ore:ingotIron>;
+val steel = <ore:ingotSteel>;
 val stick = <ore:stickWood>;
 
 recipes.removeShaped(hammer);
-recipes.addShaped(hammer, [[iron, iron, <ore:string>], [iron, stick, iron], [stick, iron, iron]]);
+recipes.addShaped(hammer, [[steel, steel, <ore:string>], [null, stick, steel], [stick, null, steel]]);

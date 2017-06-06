@@ -17,8 +17,12 @@ recipes.removeShaped(<openmodularturrets:addon_meta:6>);
 furnace.remove(<railcraft:fluid_bottle_creosote>);
 
 
+// TEMP: Until we balance EnderIO
 recipes.removeShaped(<enderio:blockTravelAnchor>);
 recipes.removeShaped(<enderio:itemTravelStaff>);
+recipes.removeShaped(<enderio:itemRodOfReturn>);
+recipes.removeShaped(<enderio:blockTelePad>);
+recipes.removeShaped(<enderio:blockDialingDevice>);
 
 
 // val ironIngot = <ore:ingotIron>;
