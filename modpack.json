@@ -149,7 +149,7 @@
       "properties" : {
         "name" : "Loot Bags",
         "description" : "No longer on the official server. They're pretty borken.",
-        "recommendation" : null,
+        "recommendation" : "avoid",
         "selected" : false
       },
       "files" : {
@@ -168,6 +168,7 @@
       ".ReAuth.cfg",
       "keybindings.txt",
       "journeymap/",
+      "journeymap/data/*",
       "shaderpacks/*.zip",
       "shaderpacks/*.txt",
       "resourcepacks/*.zip",
