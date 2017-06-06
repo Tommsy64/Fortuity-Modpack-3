@@ -8,14 +8,14 @@
                     "metadata": 6
                 },
                 "material": "stone",
-                "cluster-size": 6
+                "cluster-size": 13
             },
             "cluster-count": {
                 "min": 1,
-                "max": 4
+                "max": 2
             },
-            "center-height": 12,
-            "spread": 8,
+            "center-height": 14,
+            "spread": 12,
             "rolls": 4,
             "retrogen": false,
             "biome": "all",

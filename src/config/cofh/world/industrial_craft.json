@@ -170,8 +170,8 @@
                 "cluster-size": 4
             },
             "cluster-count": {
-                "min": 4,
-                "max": 7
+                "min": 2,
+                "max": 6
             },
             "min-height": 4,
             "max-height": 55,

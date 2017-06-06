@@ -31,7 +31,7 @@
 				{
 					"blockID": "nethermetals:nether_gold_ore",
 					"size": 6,
-					"variation": 6,
+					"variation": 4,
 					"frequency": 6,
 					"minHeight": 0,
 					"maxHeight": 128
@@ -39,7 +39,7 @@
 				{
 					"blockID": "nethermetals:nether_iron_ore",
 					"size": 12,
-					"variation": 12,
+					"variation": 10,
 					"frequency": 12,
 					"minHeight": 0,
 					"maxHeight": 128
@@ -54,7 +54,7 @@
 				},
 				{
 					"blockID": "nethermetals:redstone_ore",
-					"size": 6,
+					"size": 10,
 					"variation": 6,
 					"frequency": 6,
 					"minHeight": 0,

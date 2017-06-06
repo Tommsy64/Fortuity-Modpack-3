@@ -65,7 +65,7 @@
                         "name": "minecraft:obsidian"
                     }
                 ],
-                "cluster-size": 65,
+                "cluster-size": 32,
                 "sparse": false
             },
             "cluster-count": {
