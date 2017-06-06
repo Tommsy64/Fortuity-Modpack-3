@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+    <alias name="IRON_FURNACE" item="ic2:te:46" />
+    <alias name="IC2_MFE" item="ic2:te:74" />
 
+    <alias name="ELECTROTINE" item="dustElectrotine">
+        <dependency item="dustElectrotine" reverse="false"/>
+    </alias>
+    <alias name="ELECTROTINE" item="dustCoal">
+        <dependency item="dustElectrotine" reverse="true"/>
+    </alias>
 </enderio:recipes>

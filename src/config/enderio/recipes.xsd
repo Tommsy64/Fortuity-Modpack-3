@@ -14,7 +14,7 @@
               <sequence>
                 <element minOccurs="0" maxOccurs="unbounded" name="config">
                                     <annotation>
-                                      <documentation>Restricts this alias to only be used if thegiven config value has the given value.</documentation>
+                                      <documentation>Restricts this alias to only be used if the given config value has the given value.</documentation>
                                     </annotation>
                                     <complexType>
                     <attribute use="required" name="section" type="string"></attribute>

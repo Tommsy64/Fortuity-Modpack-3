@@ -27,10 +27,78 @@
 -->
 
 <AlloySmelterRecipes>
-  	<exclude>
-      <itemStack modID="railcraft" itemName="fluid_bottle_creosote" />
-      <itemStack oreDictionary="ingotElectricalSteel" />
-    </exclude>
-
     <vanillaFurnaceRecipes enabled="false" />
+
+    <recipeGroup name="Advanced Solar Panels">
+      <recipe name="Irradiant Uranium" energyCost="40000" >
+        <input>
+          <itemStack oreDictionary="ingotUranium" />
+          <itemStack oreDictionary="dustGlowstone" number="4" />
+        </input>
+        <output>
+          <itemStack modID="advanced_solar_panels" itemName="crafting" itemMeta="3" exp="1" />
+        </output>
+      </recipe>
+    </recipeGroup>
+
+    <recipeGroup name="EnderIO" >
+      <exclude>
+        <itemStack modID="railcraft" itemName="fluid_bottle_creosote" />
+        <itemStack oreDictionary="ingotElectricalSteel" />
+        <itemStack oreDictionary="ingotLumium" />
+        <itemStack oreDictionary="ingotElectrumFlux" />
+        <itemStack oreDictionary="ingotEnderium" />
+      </exclude>
+
+      <recipe name="Electrical Steel" energyCost="10000" >
+        <input>
+          <itemStack oreDictionary="ingotSteel" />
+          <itemStack oreDictionary="dustCoal" />
+          <itemStack oreDictionary="itemSilicon" />
+        </input>
+        <output>
+          <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="0" exp="0.5" />
+        </output>
+      </recipe>
+
+      <recipe name="Pulsating Iron" energyCost="20000" >
+        <input>
+          <itemStack modID="minecraft" itemName="iron_ingot" />
+          <itemStack modID="projectred-core" itemName="resource_item" itemMeta="513" />
+        </input>
+        <output>
+          <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="5" exp="0.7" />
+        </output>
+      </recipe>
+
+      <recipe name="Vibrant Alloy" energyCost="10000" >
+        <input>
+          <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="1" /> <!-- Energetic Alloy -->
+          <itemStack modID="ic2" itemName="nuclear" itemMeta="2" /> <!-- Uranium 238 -->
+        </input>
+        <output>
+          <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="2" exp="1" />
+        </output>
+      </recipe>
+
+      <recipe name="Redstone Alloy" energyCost="10000" >
+        <input>
+          <itemStack oreDictionary="ingotRedAlloy" />
+          <itemStack oreDictionary="itemSilicon" />
+        </input>
+        <output>
+          <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="3" exp="0.7" />
+        </output>
+      </recipe>
+
+      <recipe name="Redstone Alloy (Compound)" energyCost="12000" >
+        <input>
+          <itemStack modID="projectred-core" itemName="resource_item" itemMeta="251" />
+          <itemStack oreDictionary="itemSilicon" />
+        </input>
+        <output>
+          <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="3" exp="0.7" />
+        </output>
+      </recipe>
+    </recipeGroup>
 </AlloySmelterRecipes>

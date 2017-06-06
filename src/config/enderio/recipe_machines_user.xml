@@ -6,10 +6,85 @@
       <grid size="3x3">
         <item name="oredict:plateSteel" /><item name="thermalexpansion:frame:0" /><item name="oredict:plateSteel" />
         <item name="oredict:plateSteel" /><item name="ic2:te:9" /><item name="oredict:plateSteel" />
-        <item name="oredict:gearElectrum" /><item name="minecraft:piston" /><item name="oredict:gearElectrum" />
+        <item name="oredict:gearConstantan" /><item name="minecraft:piston" /><item name="oredict:gearConstantan" />
       </grid>
       <output name="enderio:blockStirlingGenerator" />
     </crafting>
   </recipe>
 
+  <recipe name="Combustion Generator" required="true">
+    <crafting>
+      <grid size="3x3">
+        <item name="ELECTRICAL_STEEL" /><item name="ELECTRICAL_STEEL" /><item name="ELECTRICAL_STEEL" />
+        <item name="EnderIO:blockTank:0" /><item name="CHASSIS" /><item name="EnderIO:blockTank:0" />
+        <item name="oredict:gearSteel" /><item name="minecraft:piston" /><item name="oredict:gearSteel" />
+      </grid>
+      <output name="enderio:blockCombustionGenerator" />
+    </crafting>
+  </recipe>
+
+  <recipe name="Alloy Smelter" required="true">
+    <crafting>
+      <level maxlevel="2" />
+      <grid size="3x3">
+        <item name="oredict:ingotSteel" /><item name="IRON_FURNACE" /><item name="oredict:ingotSteel" />
+        <item name="IRON_FURNACE" /><item name="CHASSIS" /><item name="IRON_FURNACE" />
+        <item name="oredict:ingotSteel" /><item name="item:minecraft:cauldron" /><item name="oredict:ingotSteel" />
+      </grid>
+      <output name="enderio:blockAlloySmelter" />
+    </crafting>
+    <crafting>
+      <level minlevel="3" />
+      <grid size="3x3">
+        <item name="oredict:blockSteel" /><item name="IRON_FURNACE" /><item name="oredict:blockSteel" />
+        <item name="IRON_FURNACE" /><item name="CHASSIS" /><item name="IRON_FURNACE" />
+        <item name="oredict:blockSteel" /><item name="item:minecraft:cauldron" /><item name="oredict:blockSteel" />
+      </grid>
+      <output name="enderio:blockAlloySmelter" />
+    </crafting>
+  </recipe>
+
+  <recipe name="The Vat" required="true">
+    <crafting>
+      <grid size="3x3">
+        <item name="ELECTRICAL_STEEL" /><item name="item:minecraft:cauldron" /><item name="ELECTRICAL_STEEL" />
+        <item name="enderio:blockTank:0" /><item name="CHASSIS" /><item name="enderio:blockTank:0" />
+        <item name="ELECTRICAL_STEEL" /><item name="IRON_FURNACE" /><item name="ELECTRICAL_STEEL" />
+      </grid>
+      <output name="enderio:blockVat" />
+    </crafting>
+  </recipe>
+
+  <recipe name="Capacitor Bank, simple" required="true">
+    <crafting>
+      <grid size="3x3">
+        <item name="oredict:plateSteel" /><item name="CAPACITOR1" /><item name="oredict:plateSteel" />
+        <item name="CAPACITOR1" /><item name="ic2:te:69" /><item name="CAPACITOR1" /> <!-- IC2 CESU -->
+        <item name="oredict:plateSteel" /><item name="CAPACITOR1" /><item name="oredict:plateSteel" />
+      </grid>
+      <output name="CAP_BANK_1" />
+    </crafting>
+  </recipe>
+
+  <recipe name="Capacitor Bank, activated" required="true">
+    <crafting>
+      <grid size="3x3">
+        <item name="ELECTRICAL_STEEL" /><item name="ic2:energy_crystal" /><item name="ELECTRICAL_STEEL" />
+        <item name="CAPACITOR2" /><item name="VIBRANT_CRYSTAL" /><item name="CAPACITOR2" />
+        <item name="ELECTRICAL_STEEL" /><item name="CAPACITOR2" /><item name="ELECTRICAL_STEEL" />
+      </grid>
+      <output name="CAP_BANK_2" />
+    </crafting>
+  </recipe>
+
+  <recipe name="Capacitor Bank, vibrant" required="true">
+    <crafting>
+      <grid size="3x3">
+        <item name="ELECTRICAL_STEEL" /><item name="CAPACITOR3" /><item name="ELECTRICAL_STEEL" />
+        <item name="CAPACITOR3" /><item name="IC2_MFE" /><item name="CAPACITOR3" />
+        <item name="ELECTRICAL_STEEL" /><item name="CAPACITOR3" /><item name="ELECTRICAL_STEEL" />
+      </grid>
+      <output name="CAP_BANK_3" />
+    </crafting>
+  </recipe>
 </enderio:recipes>

@@ -1,4 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
 
+  <alias name="CAPACITOR_METAL" item="plateCopper">
+    <dependency item="plateCopper" reverse="false"/>
+  </alias>
+  <alias name="CAPACITOR_METAL" item="nuggetGold">
+    <dependency item="plateCopper" reverse="true"/>
+  </alias>
+
+  <recipe name="Chassis" required="true">
+    <crafting>      
+      <grid>
+        <item name="barsIron"/><item name="oredict:gearSteel"/><item name="barsIron"/>
+        <item name="oredict:gearSteel"/><item name="CAPACITOR1"/><item name="oredict:gearSteel"/>
+        <item name="barsIron"/><item name="oredict:gearSteel"/><item name="barsIron"/>
+      </grid>
+      <output name="CHASSIS"/>
+    </crafting>    
+  </recipe>
+
+  <alias name="ELECTROTINE" item="projectred-core:resource_item:105">
+    <dependency item="projectred-core:resource_item:105" reverse="false"/>
+  </alias>
+  <alias name="ELECTROTINE" item="redstone">
+    <dependency item="projectred-core:resource_item:105" reverse="true"/>
+  </alias>
+
+  <recipe name="Capacitor 1" required="true">
+    <crafting>
+      <level maxlevel="1"/>
+      <grid>
+        <item /><item name="nuggetGold"/><item name="dustRedstone"/>
+        <item name="nuggetGold"/><item name="ingotIron"/><item name="nuggetGold"/>
+        <item name="dustRedstone"/><item name="nuggetGold"/><item />
+      </grid>
+      <output name="CAPACITOR1"/>
+    </crafting>
+    <crafting>
+      <level minlevel="2" maxlevel="2"/>
+      <grid>
+        <item /><item name="nuggetSteel"/><item name="dustRedstone"/>
+        <item name="nuggetSteel"/><item name="CAPACITOR_METAL"/><item name="nuggetSteel"/>
+        <item name="dustRedstone"/><item name="nuggetSteel"/><item />
+      </grid>
+      <output name="CAPACITOR1"/>
+    </crafting>
+    <crafting>
+      <level minlevel="3"/>
+      <grid>
+        <item /><item name="nuggetSteel"/><item name="ELECTROTINE"/>
+        <item name="nuggetSteel"/><item name="CAPACITOR_METAL"/><item name="nuggetSteel"/>
+        <item name="ELECTROTINE"/><item name="nuggetSteel"/><item />
+      </grid>
+      <output name="CAPACITOR1"/>
+    </crafting>
+  </recipe>
+
+  <recipe name="Capacitor 2" required="true">
+    <crafting>
+      <level maxlevel="2"/>
+      <grid>
+        <item /><item name="ENERGETIC_ALLOY"/><item />
+        <item name="CAPACITOR1"/><item name="dustCoal"/><item name="CAPACITOR1"/>
+        <item /><item name="ENERGETIC_ALLOY"/><item />
+      </grid>
+      <output name="CAPACITOR2"/>
+    </crafting>
+    <crafting>
+      <level minlevel="3"/>
+      <grid>
+        <item name="ENERGETIC_ALLOY"/><item name="ENERGETIC_ALLOY"/><item name="ENERGETIC_ALLOY"/>
+        <item name="CAPACITOR1"/><item name="ELECTROTINE"/><item name="CAPACITOR1"/>
+        <item name="ENERGETIC_ALLOY"/><item name="ENERGETIC_ALLOY"/><item name="ENERGETIC_ALLOY"/>
+      </grid>
+      <output name="CAPACITOR2"/>
+    </crafting>
+  </recipe>
+
 </enderio:recipes>
