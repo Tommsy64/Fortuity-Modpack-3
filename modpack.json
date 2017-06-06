@@ -158,6 +158,20 @@
         ],
         "exclude" : [ ]
       }
+    },
+    {
+      "properties" : {
+        "name" : "Fancy Block Particles",
+        "description" : "Turns old 2D minecraft breaking/digging particles into 3D!",
+        "recommendation" : null,
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/FancyBlockParticles*.jar"
+        ],
+        "exclude" : [ ]
+      }
     }
   ],
   "userFiles" : {
