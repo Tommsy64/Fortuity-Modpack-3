@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["SE-Soundfix-v0.1.zip", "Clouds-Pack.zip", "F32-1.10.2.zip"]
+resourcePacks:["SE-Soundfix-v0.1.zip","Clouds-Pack.zip","F32-1.10.2.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_US
@@ -51,13 +51,169 @@ showSubtitles:false
 realmsNotifications:true
 enableWeakAttacks:false
 autoJump:false
+key_key.attack:-100
+key_key.use:-99
+key_key.forward:17
+key_key.left:30
+key_key.back:31
+key_key.right:32
+key_key.jump:57
+key_key.sneak:42
+key_key.sprint:15
+key_key.drop:16
+key_key.inventory:18
+key_key.chat:28
+key_key.playerlist:38
+key_key.pickItem:0
+key_key.command:53
+key_key.screenshot:60
+key_key.togglePerspective:63
+key_key.smoothCamera:66
+key_key.fullscreen:87
+key_key.spectatorOutlines:0
+key_key.swapHands:33
+key_key.hotbar.1:2
+key_key.hotbar.2:3
+key_key.hotbar.3:4
+key_key.hotbar.4:5
+key_key.hotbar.5:6
+key_key.hotbar.6:7
+key_key.hotbar.7:8
+key_key.hotbar.8:9
+key_key.hotbar.9:10
+key_of.key.zoom:62
+key_ALT Key:56
+key_Boost Key:29
+key_Mode Switch Key:50
+key_Side Inventory Key:46
+key_Hub Expand Key:45
+key_cfg.keybind.SelectionBox:0
+key_cfg.keybind.LightLevel:65
+key_cfg.keybind.ChunkBorders:67
+key_cfg.keybind.Volume:88
+key_presets.cfg.keybind.Presets:0
+key_KEY_MODE:82
+key_MoCreatures Dive:44
+key_MoCreatures GUI:0
+key_enderio.keybind.glidertoggle:34
+key_enderio.keybind.soundlocator:0
+key_enderio.keybind.nightvision:25
+key_enderio.keybind.gogglesofrevealing:0
+key_enderio.keybind.stepassist:0
+key_enderio.keybind.speed:0
+key_enderio.keybind.jump:0
+key_enderio.keybind.top:0
+key_enderio.keybind.yetawrenchmode:21
+key_enderio.keybind.magnet:0
+key_enderio.keybind.fovreset:0
+key_enderio.keybind.fovplus:0
+key_enderio.keybind.fovminus:0
+key_enderio.keybind.fovplusfast:0
+key_enderio.keybind.fovminusfast:0
+key_Open Menu:0
+key_Toggle Freeze Effect:0
+key_Enable/Disable:181
+key_Kill Particles:0
+key_Gravi Fly Key:19
+key_Hold to show:0
+key_Toggle to show:83
+key_Open MPS Keybind GUI:-1
+key_Go Down (MPS Flight Control):44
+key_Cycle Tool Backward (MPS):-1
+key_Cycle Tool Forward (MPS):-1
+key_Cosmetic (MPS):-1
+key_Strip World:211
+key_Dress World:210
+key_key.jei.toggleOverlay:24:CONTROL
+key_key.jei.focusSearch:33:CONTROL
+key_key.jei.showRecipe:19
+key_key.jei.showUses:22
+key_key.jei.recipeBack:14
+key_key.jei.toggleCheatMode:0
+key_keybind.baublesinventory:0
+key_bbw.key.mode:40
+key_bbw.key.fluidmode:0
+key_key.cofh.multimode:47
+key_mod.chiselsandbits.chiselmode.single:0
+key_mod.chiselsandbits.chiselmode.snap2:0
+key_mod.chiselsandbits.chiselmode.snap4:0
+key_mod.chiselsandbits.chiselmode.snap8:0
+key_mod.chiselsandbits.chiselmode.line:0
+key_mod.chiselsandbits.chiselmode.plane:0
+key_mod.chiselsandbits.chiselmode.connected_plane:0
+key_mod.chiselsandbits.chiselmode.cube_small:0
+key_mod.chiselsandbits.chiselmode.cube_medium:0
+key_mod.chiselsandbits.chiselmode.cube_large:0
+key_mod.chiselsandbits.chiselmode.same_material:0
+key_mod.chiselsandbits.chiselmode.drawn_region:0
+key_mod.chiselsandbits.chiselmode.connected_material:0
+key_mod.chiselsandbits.positivepatternmode.replace:0
+key_mod.chiselsandbits.positivepatternmode.additive:0
+key_mod.chiselsandbits.positivepatternmode.placement:0
+key_mod.chiselsandbits.positivepatternmode.impose:0
+key_mod.chiselsandbits.tapemeasure.bit:0
+key_mod.chiselsandbits.tapemeasure.block:0
+key_mod.chiselsandbits.tapemeasure.distance:0
+key_mod.chiselsandbits.other.mode:56
+key_mod.chiselsandbits.other.rotate.ccw:0
+key_mod.chiselsandbits.other.rotate.cw:0
+key_mod.chiselsandbits.other.pickbit:0
+key_mod.chiselsandbits.other.undo:0
+key_mod.chiselsandbits.other.redo:0
+key_mod.chiselsandbits.other.add_to_clipboard:0
+key_key.craftingtweaks.rotate:0
+key_key.craftingtweaks.balance:0
+key_key.craftingtweaks.clear:0
+key_key.craftingtweaks.toggleButtons:0
+key_key.craftingtweaks.compressOne:37:CONTROL
+key_key.craftingtweaks.compressStack:37
+key_key.craftingtweaks.compressAll:37:SHIFT
+key_key.craftingtweaks.decompressOne:0
+key_key.craftingtweaks.decompressStack:0
+key_key.craftingtweaks.decompressAll:0
+key_key.placeItem:25
+key_key.toolConfig:46
+key_key.toolProfileChange:39
+key_waila.keybind.wailaconfig:0
+key_waila.keybind.wailadisplay:79
+key_waila.keybind.liquid:80
+key_waila.keybind.recipe:81
+key_waila.keybind.usage:75
+key_keybinding.extrabitmanipulation.design:19
+key_keybinding.extrabitmanipulation.throw.bit:19
+key_keybinding.extrabitmanipulation.bitmapping:19
+key_keybinding.extrabitmanipulation.shift:0
+key_keybinding.extrabitmanipulation.control:0
+key_keybinding.extrabitmanipulation.alt:0
+key_invtweaks.key.sort:199
+key_keybind.fovfixtoggle:0
+key_key.materialCosts:56
+key_key.clipboardPaste:210
+key_key.PickBlockPlus:-98
+key_key.rs.focusSearchBar:15
+key_signpic.key.gui:55
+key_key.craftingGrid:46
+key_key.betterfoliage.gui:0
+key_key.control:29
+key_key.journeymap.map_toggle:36
+key_key.journeymap.zoom_in:13
+key_key.journeymap.zoom_out:12
+key_key.journeymap.minimap_type:26
+key_key.journeymap.minimap_type:27
+key_key.journeymap.minimap_preset:0
+key_key.journeymap.create_waypoint:78
+key_keybind.railcraft.loco.reverse:53:ALT
+key_keybind.railcraft.loco.faster:52:ALT
+key_keybind.railcraft.loco.slower:51:ALT
+key_keybind.railcraft.loco.mode:50:ALT
+key_keybind.railcraft.loco.whistle:49:ALT
 soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
 soundCategory_hostile:1.0
-soundCategory_neutral:1.0
+soundCategory_neutral:0.5
 soundCategory_player:1.0
 soundCategory_ambient:1.0
 soundCategory_voice:1.0

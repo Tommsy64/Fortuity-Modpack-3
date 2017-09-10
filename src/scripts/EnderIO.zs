@@ -1,10 +1,5 @@
-print("Renaming some items...");
+print("Renaming EnderIO items...");
 
-<projectred-core:resource_item:400>.displayName = "Fine Copper Coil";
-<projectred-core:resource_item:401>.displayName = "Fine Iron Coil";
-<projectred-core:resource_item:402>.displayName = "Fine Gold Coil";
-
-<projectred-core:resource_item:103>.displayName = "Redstone Alloy Ingot";
 <enderio:itemAlloy:3>.displayName = "Silicon-Redstone Alloy";
 
 val redstoneAlloyBlock = <enderio:blockIngotStorage:3>;
@@ -14,3 +9,11 @@ recipes.addShaped(redstoneAlloyBlock, [[redstoneAlloy, redstoneAlloy, redstoneAl
 
 recipes.removeShapeless(<enderio:itemAlloy:3>); // Silicon-Redstone Alloy ingotRedAlloy
 recipes.addShapeless(<projectred-core:resource_item:103> * 9, [redstoneAlloyBlock]);
+
+
+// TEMP: Until we balance EnderIO
+recipes.removeShaped(<enderio:blockTravelAnchor>);
+recipes.removeShaped(<enderio:itemTravelStaff>);
+recipes.removeShaped(<enderio:itemRodOfReturn>);
+recipes.removeShaped(<enderio:blockTelePad>);
+recipes.removeShaped(<enderio:blockDialingDevice>);

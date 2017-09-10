@@ -16,7 +16,20 @@
 		"modIdPriorityList": [
 			"minecraft",
 			"ic2",
-            "railcraft",
+			"railcraft",
+			"immersiveengineering",
+			"thermalfoundation",
+			"substratum",
+			"mekanism",
+			"techreborn"
+		]
+	},
+	{
+		"entryName": "fuelCoke",
+		"modIdPriorityList": [
+			"minecraft",
+			"ic2",
+			"railcraft",
 			"immersiveengineering",
 			"thermalfoundation",
 			"substratum",
