@@ -1,5 +1,5 @@
 shaderPack=
-antialiasingLevel=0
+antialiasingLevel=4
 normalMapEnabled=true
 specularMapEnabled=true
 renderResMul=1.0

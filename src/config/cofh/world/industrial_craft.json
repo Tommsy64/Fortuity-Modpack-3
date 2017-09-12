@@ -1,4 +1,5 @@
 {
+    "dependencies": "ic2",
     "populate": {
         "copper": {
             "distribution": "gaussian",

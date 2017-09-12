@@ -4,7 +4,7 @@ ofFogStart:0.8
 ofMipmapType:3
 ofOcclusionFancy:false
 ofSmoothFps:false
-ofSmoothWorld:true
+ofSmoothWorld:false
 ofAoLevel:1.0
 ofClouds:3
 ofCloudsHeight:1.0

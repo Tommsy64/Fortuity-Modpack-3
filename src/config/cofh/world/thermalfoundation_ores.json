@@ -35,7 +35,7 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": {
-					"name": "thermalfoundation:ore",
+					"name": "railcraft:ore_metal",
 					"metadata": 5
 				},
 				"material": "stone",

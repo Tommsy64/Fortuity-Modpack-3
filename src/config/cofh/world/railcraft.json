@@ -1,5 +1,33 @@
 {
+    "dependencies": "railcraft",
     "populate": {
+		"zinc": {
+			"distribution": "gaussian",
+			"generator": {
+				"block": {
+					"name": "railcraft:ore_metal",
+					"metadata": 5
+				},
+				"material": "stone",
+				"cluster-size": 4
+			},
+			"cluster-count": {
+				"min": 0,
+				"max": 1
+			},
+            "center-height": 30,
+            "spread": 15,
+            "rolls": 2,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
         "saltpeter": {
             "distribution": "uniform",
             "generator": {

@@ -15,7 +15,7 @@ if %ERRORLEVEL% EQU 0 (
 )
 
 :start
-java -Xms1g -Xmx4g -jar forge-1.10.2-12.18.3.2297-universal.jar
+java -Xms1g -Xmx4g -jar forge-1.10.2-12.18.3.2477-universal.jar
 echo You have 5 seconds to press Control+C to quit
 ping localhost -n 8 > nul
 goto start

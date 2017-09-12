@@ -1,4 +1,5 @@
 {
+    "dependencies": "modularforcefieldsystem",
     "populate": {
         "monazit": {
             "distribution": "gaussian",
