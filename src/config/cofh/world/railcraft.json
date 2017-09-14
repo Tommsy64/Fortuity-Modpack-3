@@ -18,7 +18,7 @@
             "center-height": 30,
             "spread": 15,
             "rolls": 2,
-			"retrogen": false,
+			"retrogen": true,
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
